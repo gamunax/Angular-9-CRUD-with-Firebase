@@ -1,27 +1,52 @@
-# CrudFirebase
+# Angular 9 Crud con Firebase
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.5.
+Es un crud (Create, Read, Update and Delete) usando Angular 9 y Firebase
 
-## Development server
+## Comenzando 🚀
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+_Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas._
 
-## Code scaffolding
+### Pre-requisitos 📋
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+_Este demo tiene como entorno lo siguiente
 
-## Build
+```
+NodeJS 12.17
+Angular CLI 9.1.5
+@angular/fire 6.0.0
+firebase 7.15.0
+```
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+### Instalación 🔧
 
-## Running unit tests
+_Instalación de las dependencias (node_modules)_
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+```
+npm install
+```
 
-## Running end-to-end tests
+_Deploy local_
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+```
+ng serve
+```
 
-## Further help
+_Así se veria cuando se ejecute_
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+![crud](https://user-images.githubusercontent.com/8071610/84172171-4f677d80-aa41-11ea-8b9f-f3481b1596a1.PNG)
+
+
+## Construido con 🛠️
+
+_Menciona las herramientas que utilizaste para crear tu proyecto_
+
+* [Angular](https://angular.io/) - El framework web usado
+* [Firebase](https://firebase.google.com/) - Manejador de base de datos
+* [Bootstrap](https://getbootstrap.com/) - Framework para el manejo de interfaces
+
+
+## Autores ✒️
+
+_Menciona a todos aquellos que ayudaron a levantar el proyecto desde sus inicios_
+
+* **Jan Pierre Sánchez** - *Trabajo Inicial*
