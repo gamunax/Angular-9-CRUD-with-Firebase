@@ -8,7 +8,7 @@ _Estas instrucciones te permitirán obtener una copia del proyecto en funcionami
 
 ### Pre-requisitos 📋
 
-_Este demo tiene como entorno lo siguiente
+_Este demo tiene como entorno lo siguiente_
 
 ```
 NodeJS 12.17
@@ -38,15 +38,11 @@ _Así se veria cuando se ejecute_
 
 ## Construido con 🛠️
 
-_Menciona las herramientas que utilizaste para crear tu proyecto_
-
 * [Angular](https://angular.io/) - El framework web usado
 * [Firebase](https://firebase.google.com/) - Manejador de base de datos
 * [Bootstrap](https://getbootstrap.com/) - Framework para el manejo de interfaces
 
 
 ## Autores ✒️
-
-_Menciona a todos aquellos que ayudaron a levantar el proyecto desde sus inicios_
 
 * **Jan Pierre Sánchez** - *Trabajo Inicial*
