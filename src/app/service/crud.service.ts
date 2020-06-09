@@ -21,4 +21,8 @@ export class CrudService {
   updateEmployee(id, employee) {
     return this.fireServices.doc(`Employee/${id}`).update(employee);
   }
+
+  deleteEmployee(id) {
+    return this.fireServices.doc(`Employee/${id}`).delete()
+  }
 }

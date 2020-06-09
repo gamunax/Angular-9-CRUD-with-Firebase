@@ -88,8 +88,14 @@ export class AppComponent implements OnInit {
     });
   }
 
-  deleteEmployee(item) {
+  deleteEmployee(employee) {
+    if (confirm(`¿Desea Eliminar el empleado ${employee.nombre}?`)) {
+      this.crudService.deleteEmployee(employee.id);
+    }
+  }
 
+  cancelEmployee() {
+    this.resetForm();
   }
 
   actionMessage() {
@@ -107,6 +113,4 @@ export class AppComponent implements OnInit {
       event: 'Registrar'
     };
   }
-
-
 }
